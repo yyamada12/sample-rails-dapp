@@ -12,4 +12,8 @@ contract Greeter {
     function hello() public view returns (string memory) {
         return string(string.concat("Hello ", name));
     }
+
+    function greet() external pure returns(string memory) {
+         return "Hello, World!";
+     }
 }
